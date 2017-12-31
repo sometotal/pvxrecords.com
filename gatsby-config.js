@@ -1,6 +1,7 @@
 module.exports = {
+  pathPrefix: `/pvxrecords.com`,
   siteMetadata: {
-    title: 'My Gatsby Site'
+    title: 'Pensamplivox Records'
   },
   mapping: {
     'MarkdownRemark.frontmatter.author': 'AuthorsYaml'

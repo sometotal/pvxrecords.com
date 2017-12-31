@@ -31,7 +31,8 @@
     "build": "node_modules/.bin/gatsby build",
     "test": "jest",
     "test:watch": "jest --watch",
-    "prettify": "prettier --write '{./,__{tests,mocks}__}/**/*.+(js|jsx)'"
+    "prettify": "prettier --write '{./,__{tests,mocks}__}/**/*.+(js|jsx)'",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
   "jest": {
     "transform": {
@@ -65,6 +66,7 @@
     "eslint-plugin-jsx-a11y": "^6.0.2",
     "eslint-plugin-prettier": "^2.3.1",
     "eslint-plugin-react": "^7.4.0",
+    "gh-pages": "^1.1.0",
     "jest": "^21.2.1",
     "prettier": "1.7.4"
   }
