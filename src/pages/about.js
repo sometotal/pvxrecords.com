@@ -21,7 +21,7 @@ const About = ({ data }) => {
       >
         <h1>About</h1>
         <Img className={imgStyle} alt="Picture of X" sizes={imageSharp.sizes} />
-        <p>This is an example showing the use of &quot;gatsby-image&quot;.</p>
+        <p>This is just one of the places we rule.</p>
       </Box>
     </Box>
   );

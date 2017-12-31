@@ -136,7 +136,7 @@ class Navigation extends Component {
       <nav>
         <Box width="100%" px={[3, 3, 4]} className={fullNav}>
           <ul>
-            <li>Gatsbythemes.com starter</li>
+            <li>Pensamplivox Records</li>
             <div>
               <li>
                 <Link to="/">Home</Link>
@@ -152,7 +152,7 @@ class Navigation extends Component {
         </Box>
         <Box width="100%" px={[3, 3, 4]} className={mobileNav}>
           <ul>
-            <li>Gatsbythemes.com starter</li>
+            <li>Pensamplivox Records</li>
             <li>
               <div
                 onClick={this.toggleNav}
