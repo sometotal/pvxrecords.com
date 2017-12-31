@@ -1,6 +1,6 @@
 ---
 title: Example Post 1
-author: Donald Duck
+author: Donald Duck Dunn
 date: 2017-10-19
 ---
 

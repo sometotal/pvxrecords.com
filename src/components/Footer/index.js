@@ -165,7 +165,7 @@ Footer.propTypes = {
 };
 
 Footer.defaultProps = {
-  name: 'Gatbsythemes.com starter',
+  name: 'Pensamplivox Records',
   facebook: 'https://facebook.com',
   twitter: 'https://twitter.com',
   instagram: 'https://instagram',
