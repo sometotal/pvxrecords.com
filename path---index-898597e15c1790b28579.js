@@ -1,2 +1,0 @@
-webpackJsonp([0x81b8806e4260],{283:function(e,t){e.exports={data:{allContentJson:{edges:[{node:{index:{title:"PVX Records",subtitle:"All the bands you wish you knew"}}}]}},pathContext:{}}}});
-//# sourceMappingURL=path---index-898597e15c1790b28579.js.map
