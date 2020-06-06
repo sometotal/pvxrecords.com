@@ -1,21 +1,19 @@
 {
-  "name": "hawksworx.com",
-  "version": "2.0.1",
-  "description": "Phil Hawksworth's personal website - hawksworx.com",
+  "name": "pvxrecords.com",
+  "version": "1.0.0",
+  "description": "Pensamplivox -- your home for fucked up rock",
   "scripts": {
-    "start": "gulp build & gulp watch & ELEVENTY_ENV=dev eleventy --serve & yarn run start:lambda",
+    "start": "gulp build & gulp watch & ELEVENTY_ENV=dev eleventy --serve",
     "prime": "gulp build & ELEVENTY_ENV=prime eleventy",
-    "build": "gulp build & ELEVENTY_ENV=prod eleventy && yarn run build:lambda",
+    "build": "gulp build & ELEVENTY_ENV=prod eleventy",
     "dryrun": "gulp build & ELEVENTY_ENV=dev eleventy",
-    "build:lambda": "netlify-lambda build src/lambda",
-    "start:lambda": "netlify-lambda serve src/lambda",
     "new:link": "node utils/new.js link"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/philhawksworth/hawksworx.com"
+    "url": "https://github.com/sometotal/pvxrecords.com"
   },
-  "author": "Phil Hawksworth",
+  "author": "Joe Sepi",
   "license": "ISC",
   "dependencies": {
     "@11ty/eleventy": "0.10.0",
@@ -25,7 +23,7 @@
     "dotenv": "^6.1.0",
     "gulp": "^4.0.0",
     "gulp-concat": "^2.6.1",
-    "gulp-sass": "^4.0.1",
+    "gulp-sass": "^4.1.0",
     "gulp-uglify": "^3.0.1",
     "html-minifier": "^3.5.20",
     "netlify-lambda": "^1.1.0",
