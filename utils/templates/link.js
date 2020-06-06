@@ -1,4 +1,3 @@
-
 module.exports = (data) => `---
 permalink: null
 title: ${data.title}
