@@ -8,32 +8,32 @@
     "text" : "eleventail helper tailwindcss eleventy often find myself making sites side projects starting point these tends evolve course depends requirements project have very common basic set needs tools that like use lately &#39;ve been learning enjoying using tailwind css utilityfirst css combining with eleventy which use static site generator fun productive made simple project bootstrap shared template githuball need now silly pun portmanteau name wait behold! born!what does provideeleventail just when building where want have:eleventy generation configured some conventionstailwind utilitybased pipelinepurge stripping unused minifying resultuglify js javascript build pipelineserverless functions development pipeline via netlify functionslocal support cdn abilities such redirects custom headerseleventail product &#39;s something maintain myself think might useful too then great go ! suggestions contributions pull requests are also welcomeoneclick deployok 2 clicks can try yourself this speedy automated deploy clicking button below will:clone git repo into your github account ( will asked required permissions add ) new created netlify linked shiny repo ci/cd &#39;ll able deploy changes simply by pushing repothat&#39;s reallytry doubledare "
   },{
     "url" : "https://css-tricks.com/emcee-tips-for-a-conference-or-meetup/",
-
+    
     "title" : "MC tips for a conference or a meetup",
     "text" : "mc tips conference meetup since &#39;ve emceed few conferences now been asked quite times have any tips ! here selection things that think work wrapped post csstricks"
   },{
     "url" : "https://dev.to/philhawksworth/netlify-pro-tip-using-split-testing-to-power-private-beta-releases-a7l",
-
+    
     "title" : "Netlify pro tip - Using Split Testing to power private beta releases",
     "text" : "netlify pro tip using split testing power private beta releases explanation short video demo how create your own opt ui features site like branch deploys testing could use this with any type like regardless what tools static generator used example created hugo anything also regularly sites made gatsby eleventy"
   },{
     "url" : "https://www.sitepen.com/blog/episode-42-rethinking-deployment/",
-
+    
     "title" : "Rethinking Deployment - on TalkScript",
     "text" : "rethinking deployment talkscript after speaking about jamstack serverless web rather wonderful nebraska js omaha got chance hangout chat with bryan podcast spoke what static really means old new approaches how sites can raise confidence your projects few other things from talk"
   },{
     "url" : "https://dev.to/philhawksworth/power-up-gatsby-sites-with-a-b-testing-on-netlify-fp4",
-
+    
     "title" : "Power up Gatsby sites with A/B testing on Netlify",
     "text" : "power gatsby sites with /b testing netlify host your site netlify can create multivariant tests without need clientside ui manipulation other javascript intervention this post demo video explain how"
   },{
     "url" : "https://dev.to/philhawksworth/reflecting-on-london-s-first-jamstack-conference-13e9",
-
+    
     "title" : "Reflecting on London’s first JAMstack conference",
     "text" : "reflecting london’s first jamstack conference summary what took place london including thoughts list speakers activities"
   },{
     "url" : "https://css-tricks.com/tips-for-rolling-your-own-lazy-loading/",
-
+    
     "title" : "Tips for rolling your own lazy loading",
     "text" : "tips rolling your own lazy loading exploration making lazyloading solution images using little javascript some helper utilities from eleventy static site generator published csstricks"
   },{
@@ -50,22 +50,22 @@
     "text" : "adding search jamstack site often cited limitation static sites searching feels dynamic surely impossible site right thankfully here nice technique use with most any generator little javascript progressive enhancement add functionality your sitethere are number services available can bring fully featured rich had needed more sophisticated searching things like fuzzy matching related content associations deep analytics could have used service algolia who experts this sort thingsome requirements needs relatively simple rather than using external wanted roll own simple which would help people find blog posts set myself following requirements:using best experience fine should possible without searching feel very fast items by looking post titles content additional overhead libraries third party services keep manageable impact perceived page speed whatsoever technique summary approach chose take :provide google form fallback pagehijack link that javascriptwhen user clicks search silently load json index contentdisplay ui each keypress ui our string matchesdisplay links matches foundlet&#39;s look some closelysetting baseline first step good baseline from progressively enhance javascript creating jsfree much difficult setting working before ever enters picture &#39;d recommend matter what building added primary navigation site see top page regular old &#39;ll hijack later now goes page page lean engine provide ability leading engines allow this here&#39;s &#39;m google html parameters will send request google scoped site looks this:&amp;lt;form action=&quot;https://wwwgooglecouk/search&quot; method=&quot;get&quot; class=&quot;search&quot;&gt; &amp;lt;input type=&quot;hidden&quot; name=&quot;q&quot; id=&quot;q&quot; value=&quot;site:http://hawksworxcom&quot;&gt; &amp;lt;label =&quot;searchstr&quot;&gt;search &amp;lt;small&gt;&amp;lt;/label&gt; type=&quot;text&quot; id=&quot;searchstr&quot;&gt;&amp;lt;/p&gt; &amp;lt;button type=&quot;submit&quot; class=&quot;submit&quot;&gt;search google&amp;lt;/button&gt;&amp;lt;/form&gt;that gives us perform ( directly scoping query site:http://hawksworxcom/) results displayed point back correct pages site baselinehijacking link stay just same need inline unobtrusive unavailable link&amp;lt; href=&quot;/search&quot; id=&quot;searchlink&quot;&gt;search&amp;lt;/&gt;now javascript event handler trigger feature somebody search also suppress standard behavior since &#39;re navigating away current page// attach click linkvar btn = documentqueryselector(&#39;#searchlink&#39;);btnaddeventlistener(&#39;click&#39; function(event) { // don&#39;t navigate put eventpreventdefault(); make magic happen instead} false);loading object inspectuntil indicated they intend clicking link dont index helps weight down once clicked &#39;s time go get data while show ui contemplates fetch data javascript// dataconst searchindex;fetch(&#39;/searchjson&#39;)then(function(response) return responsejson();})then(function(response) searchindex responsesearch;});this now matching &#39;ll whatever into fetching against basic adequate here// item jsonvar [];(var ) var found searchindex[item]textindexof(searchstring); (found != 1 resultspush(searchindex[item]) }}// display arraygenerating index far good when required rudimentary matching where does come from that&#39;s really us generate creates output applying templates structured datasince built generator already interpreting its outputting shape need all create suitable template html objectgenerating done build time ready serve resource performance resilience bonuscurrently called eleventy eleventy making searchjson straight forwardpermalink: searchjson{&quot;search&quot; : [{% collectionsposts %} &quot;url&quot; &quot;{{ itemurl }}&quot; &quot;title&quot; itemdatatitle &quot;text&quot; (itemdatatitle + &quot; itemtemplatecontent) | squash }}&quot; }{% looplast %}{% else %}{% endif %}{% endfor %}]}by iterating over collection posts construct suit convenience chose: url: page title: title inn results text index: contains every unique word contained post&#39;s text efficient condensed property little passing filter created sqaush massage more following:makes lowercaseremoves duplicated wordsremoves words less meaningfully searching many generators give filters utilities way how work everything learn ruby ( did implemented same thing confidence earlier version jekyll) building blocks needwhen these together assemble behaviors ui capability try works nicelywhen inspect manipulate makes expose like gain craft wide variety experiences website delivering functionalities prove might originally expectedwith imagination other dynamic features sites satisfying"
   },{
     "url" : "https://www.netlify.com/blog/2018/10/16/contentful-and-github-help-make-jamstack_conf-a-reality/",
-
+    
     "title" : "Contentful and GitHub help make JAMstack_Conf a reality",
     "text" : "contentful github help make jamstack_conf reality bring much platinum sponsors here&#39;s why"
   },{
     "url" : "https://www.netlify.com/blog/2018/10/08/get-more-control-over-netlify-continuous-deployment-with-deploy-skipping/",
-
+    
     "title" : "Get more control over Netlify continuous deployment with deploy skipping",
     "text" : "get more control over netlify continuous deployment with deploy skipping learn how suppress automated build process deployment"
   },{
     "url" : "https://www.netlify.com/blog/2018/09/27/the-10-talks-and-many-highlights-of-vue-london/",
-
+    
     "title" : "The 10 talks and many highlights of Vue London",
     "text" : " 10 talks many highlights vue london some which featured 6 lightning about popular javascript framework vuejs"
   },{
     "url" : "https://medium.com/netlify/off-with-their-heads-the-rise-of-the-modern-cms-e0089538aed6",
-
+    
     "title" : "Off with their heads ! The rise of the modern CMS",
     "text" : " with their heads ! rise modern cms paid glamorous agency design your new website spent thousands hours gazillion dollars laboring over every aspect get just right after rounds meetings reviews arguments sweat tweaks nudges… finally have are happy with even board they want now"
   },{
