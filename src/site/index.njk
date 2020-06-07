@@ -17,7 +17,7 @@ pageClass: dark-theme theme-black
 {% block content %}
 
   <h2>Records</h2>
-  {%- for record in collections.records -%} 
+  {%- for record in collections.records -%}
 
     <h3>{{record.data.title}}</h3>
     <dl>
@@ -25,7 +25,6 @@ pageClass: dark-theme theme-black
       <dd>{{record.data.artist}}</dd>
 
   {%- endfor -%}
-  
 
 {% endblock %}
 
