@@ -1,3 +1,4 @@
 {
-  "test": "maybe"
+  "test": "maybe",
+  "tags": [ "records" ]
 }

@@ -9,7 +9,7 @@
   <author>
     <name>Phil Hawksworth</name>
   </author>
-
+  
   <entry>
     <title>Prerendering is the key to a tasty Jamstack</title>
     <link href="https://www.hawksworx.com/blog/prerendering/"/>
@@ -33,7 +33,7 @@
 &lt;p&gt;But at its heart, the unsung hero of the stack, is pre-rendering as much as possible and enjoying the many benefits of working with, and serving static assets.&lt;/p&gt;
 </content>
   </entry>
-
+  
   <entry>
     <title>Eleventail - A helper for TailwindCSS and Eleventy</title>
     <link href="https://www.hawksworx.com/blog/eleventail-a-helper-for-tailwindcss-and-eleventy/"/>
@@ -66,7 +66,7 @@
 &lt;p&gt;&lt;a href=&quot;https://app.netlify.com/start/deploy?repository=https://github.com/philhawksworth/eleventail&quot;&gt;&lt;img src=&quot;https://www.netlify.com/img/deploy/button.svg&quot; alt=&quot;Deploy to Netlify&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 </content>
   </entry>
-
+  
   <entry>
     <title>MC tips for a conference or a meetup</title>
     <link href="https://www.hawksworx.com/blog/mc-tips/"/>
@@ -75,7 +75,7 @@
     <content type="html">&lt;p&gt;Since I&#39;ve emceed a few conferences now, I&#39;ve been asked a quite few times if I have any tips. I do! Here is a selection of things that I think work for me, wrapped up in a post on &lt;a href=&quot;https://css-tricks.com/emcee-tips-for-a-conference-or-meetup/&quot;&gt;CSS-Tricks&lt;/a&gt;.&lt;/p&gt;
 </content>
   </entry>
-
+  
   <entry>
     <title>Netlify pro tip - Using Split Testing to power private beta releases</title>
     <link href="https://www.hawksworx.com/blog/netlify-pro-tip-using-split-testing-to-power-private-beta-releases/"/>
@@ -85,7 +85,7 @@
 &lt;p&gt;You could use this with any type of site you like, regardless of what tools or static site generator you used to create it. The example in the video was a site created with Hugo, but it could be anything. I also use it regularly with sites made with Gatsby or Eleventy.&lt;/p&gt;
 </content>
   </entry>
-
+  
   <entry>
     <title>Rethinking Deployment - on TalkScript</title>
     <link href="https://www.hawksworx.com/blog/rethinking-deployment-talkscript-podcast/"/>
@@ -95,7 +95,7 @@
 &lt;p&gt;We spoke about what static really means, old and new deployment approaches, how JAMstack sites can raise the confidence in your web projects, and a few other things from my talk.&lt;/p&gt;
 </content>
   </entry>
-
+  
   <entry>
     <title>Power up Gatsby sites with A/B testing on Netlify</title>
     <link href="https://www.hawksworx.com/blog/power-up-gatsby-sites-with-ab-testing/"/>
@@ -104,7 +104,7 @@
     <content type="html">&lt;p&gt;If you host your Gatsby site with &lt;a href=&quot;https://www.netlify.com/?utm_source=blog&amp;amp;utm_medium=hawksworx&amp;amp;utm_campaign=devex&quot;&gt;Netlify&lt;/a&gt;, you can create A/B or multi-variant tests without the need for client-side UI manipulation or other JavaScript intervention. This post and demo video explain how.&lt;/p&gt;
 </content>
   </entry>
-
+  
   <entry>
     <title>Reflecting on London’s first JAMstack conference</title>
     <link href="https://www.hawksworx.com/blog/reflecting-on-londons-first-jamstack-conference/"/>
@@ -113,7 +113,7 @@
     <content type="html">&lt;p&gt;A summary of what took place at the first &lt;a href=&quot;https://2019.jamstackconf/com/london&quot;&gt;JAMstack conference in London&lt;/a&gt;, including my thoughts and a list of the speakers and activities.&lt;/p&gt;
 </content>
   </entry>
-
+  
   <entry>
     <title>Tips for rolling your own lazy loading</title>
     <link href="https://www.hawksworx.com/blog/tips-for-rolling-your-own-lazy-loading/"/>
@@ -122,7 +122,7 @@
     <content type="html">&lt;p&gt;An exploration of making your own lazy-loading solution for images. Using a little JavaScript and some helper utilities from the Eleventy static site generator. Published on CSS-Tricks.&lt;/p&gt;
 </content>
   </entry>
-
+  
   <entry>
     <title>findthat.at - A URL shortener powered by Netlify</title>
     <link href="https://www.hawksworx.com/blog/find-that-at/"/>
@@ -149,7 +149,7 @@
 &lt;/div&gt;
 </content>
   </entry>
-
+  
   <entry>
     <title>Keeping Sass simple and speedy on Eleventy</title>
     <link href="https://www.hawksworx.com/blog/keeping-sass-simple-and-speedy-on-eleventy/"/>
@@ -194,7 +194,7 @@
 &lt;/ul&gt;
 </content>
   </entry>
-
+  
   <entry>
     <title>Adding search to a JAMstack site</title>
     <link href="https://www.hawksworx.com/blog/adding-search-to-a-jamstack-site/"/>
@@ -271,7 +271,7 @@
 &lt;p&gt;With a little imagination, adding this and other dynamic features to JAMstack sites is really satisfying.&lt;/p&gt;
 </content>
   </entry>
-
+  
   <entry>
     <title>Contentful and GitHub help make JAMstack_Conf a reality</title>
     <link href="https://www.hawksworx.com/blog/contentful-and-github-help-make-jamstack_conf-a-reality/"/>
@@ -280,7 +280,7 @@
     <content type="html">&lt;p&gt;GitHub and Contentful bring so much to JAMstack_Conf as the platinum sponsors. Here&#39;s why.&lt;/p&gt;
 </content>
   </entry>
-
+  
   <entry>
     <title>Get more control over Netlify continuous deployment with deploy skipping</title>
     <link href="https://www.hawksworx.com/blog/get-more-control-over-netlify-continuous-deployment-with-deploy-skipping/"/>
@@ -289,7 +289,7 @@
     <content type="html">&lt;p&gt;Learn how to suppress the automated build and deploy process, with deploy skipping in Netlify continuous deployment&lt;/p&gt;
 </content>
   </entry>
-
+  
   <entry>
     <title>The 10 talks and many highlights of Vue London</title>
     <link href="https://www.hawksworx.com/blog/the-10-talks-and-many-highlights-of-vue-london/"/>
@@ -299,7 +299,7 @@
 &lt;p&gt;&lt;img src=&quot;https://www.hawksworx.com/images/vue-london-chris-dm.jpg&quot; alt=&quot;Vue London&quot; title=&quot;Vue London&quot;&gt;&lt;/p&gt;
 </content>
   </entry>
-
+  
   <entry>
     <title>Off with their heads ! The rise of the modern CMS</title>
     <link href="https://www.hawksworx.com/blog/off-with-their-heads---the-rise-of-the-modern-cms/"/>
@@ -308,7 +308,7 @@
     <content type="html">&lt;p&gt;You paid a glamorous agency to design your new website. You spent thousands of hours and a gazillion dollars laboring over every aspect of the design to get it just right. After rounds and rounds of meetings and reviews and arguments and sweat and tweaks and nudges… finally you have a design you are happy with. Even the board is happy with it. And they want it. They want it now.&lt;/p&gt;
 </content>
   </entry>
-
+  
   <entry>
     <title>Comedy in the Crown goes pro</title>
     <link href="https://www.hawksworx.com/blog/comedy-in-the-crown-goes-pro/"/>
@@ -339,7 +339,7 @@
 &lt;p&gt;Watch this space.&lt;/p&gt;
 </content>
   </entry>
-
+  
   <entry>
     <title>Webserverless</title>
     <link href="https://www.hawksworx.com/blog/webserverless/"/>
@@ -395,7 +395,7 @@
 &lt;p&gt;Where possible, I&#39;m going webserverless.&lt;/p&gt;
 </content>
   </entry>
-
+  
   <entry>
     <title>Smashing Magazine moves to a JAMstack architecture</title>
     <link href="https://www.hawksworx.com/blog/smashing-magazine-moves-to-a-jam-stack-architecture/"/>
@@ -413,7 +413,7 @@
 &lt;p&gt;Go and explore the new &lt;a href=&quot;https://www.smashingmagazine.com/&quot;&gt;Smashing Magazine&lt;/a&gt; and consider supporting their move to reduce on-site ads by joining their &lt;a href=&quot;https://www.smashingmagazine.com/membership&quot;&gt;membership&lt;/a&gt; program which gives access to even more content.&lt;/p&gt;
 </content>
   </entry>
-
+  
   <entry>
     <title>Joining Netlify</title>
     <link href="https://www.hawksworx.com/blog/joining-netlify/"/>
@@ -468,7 +468,7 @@
 &lt;p&gt;Ok. Let&#39;s do this.&lt;/p&gt;
 </content>
   </entry>
-
+  
   <entry>
     <title>TTFN R/GA</title>
     <link href="https://www.hawksworx.com/blog/ttfn-rga/"/>
@@ -492,7 +492,7 @@
 &lt;p&gt;But just now, I&#39;m sending my heartfelt thanks to eveyone at R/GA. You most certainly did not disappoint!&lt;/p&gt;
 </content>
   </entry>
-
+  
   <entry>
     <title>Keeping a Jamstack Site Feeling Fresh With Recent Tweets</title>
     <link href="https://www.hawksworx.com/blog/keeping-a-jamstack-site-feeling-fresh-with-recent-tweets/"/>
@@ -522,7 +522,7 @@
 &lt;/ol&gt;
 </content>
   </entry>
-
+  
   <entry>
     <title>Isomorphic Rendering on the JAMstack</title>
     <link href="https://www.hawksworx.com/blog/isomorphic-rendering-on-the-jam-stack/"/>
@@ -609,7 +609,7 @@
 &lt;p&gt;You can &lt;a href=&quot;https://github.com/philhawksworth/comedy-in-the-crown&quot;&gt;check out the code&lt;/a&gt; for the site (warts and all) on Github.&lt;/p&gt;
 </content>
   </entry>
-
+  
   <entry>
     <title>Progressive Enhancement Design Smackdown</title>
     <link href="https://www.hawksworx.com/blog/progressive-enhancement-design-smackdown/"/>
@@ -654,7 +654,7 @@
 &lt;/p&gt;
 </content>
   </entry>
-
+  
   <entry>
     <title>Better Than Perfect</title>
     <link href="https://www.hawksworx.com/blog/better-than-perfect/"/>
@@ -706,7 +706,7 @@
 &lt;p&gt;It still might not be perfect, but I got it done.&lt;/p&gt;
 </content>
   </entry>
-
+  
   <entry>
     <title>The Shapes of Web Views</title>
     <link href="https://www.hawksworx.com/blog/the-shapes-of-web-views/"/>
@@ -740,7 +740,7 @@
 &lt;/p&gt;
 </content>
   </entry>
-
+  
   <entry>
     <title>Adding a Static Comments System to My Jekyll Build</title>
     <link href="https://www.hawksworx.com/blog/adding-a-static-comments-system-to-my-jekyll-build/"/>
@@ -841,7 +841,7 @@ gulp.task(&amp;quot;comments&amp;quot;, function() {
   Once I&#39;ve run the Gulp task above, I just run the Jekyll build as normal. The post template includes this logic to add the comments to the page which they originated from.
 &lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;&amp;lt;ul class=&amp;quot;listing comments&amp;quot;&amp;gt;
-
+  
 &amp;lt;/ul&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h3&gt;The comments form which posts the data to Poole&lt;/h3&gt;
@@ -868,7 +868,7 @@ gulp.task(&amp;quot;comments&amp;quot;, function() {
 &lt;/p&gt;
 </content>
   </entry>
-
+  
   <entry>
     <title>Too Funky Didnt Read</title>
     <link href="https://www.hawksworx.com/blog/too-funky-didnt-read/"/>
@@ -921,7 +921,7 @@ gulp.task(&amp;quot;comments&amp;quot;, function() {
 &lt;/p&gt;
 </content>
   </entry>
-
+  
   <entry>
     <title>Using a Wiimote for Presentations</title>
     <link href="https://www.hawksworx.com/blog/using-a-wiimote-for-presentations/"/>
@@ -977,7 +977,7 @@ gulp.task(&amp;quot;comments&amp;quot;, function() {
 &lt;/ul&gt;
 </content>
   </entry>
-
+  
   <entry>
     <title>On Hiring Developers</title>
     <link href="https://www.hawksworx.com/blog/on-hiring-developers/"/>
@@ -1071,7 +1071,7 @@ gulp.task(&amp;quot;comments&amp;quot;, function() {
 &lt;/p&gt;
 </content>
   </entry>
-
+  
   <entry>
     <title>London Content Strategy Meetup</title>
     <link href="https://www.hawksworx.com/blog/london-content-strategy-meetup/"/>
@@ -1110,7 +1110,7 @@ gulp.task(&amp;quot;comments&amp;quot;, function() {
 &lt;p&gt;&lt;a href=&quot;http://www.meetup.com/content-strategy-london/photos/15575102/&quot;&gt;Photos from the evening&lt;/a&gt;&lt;/p&gt;
 </content>
   </entry>
-
+  
   <entry>
     <title>Oakleys Moto Diet</title>
     <link href="https://www.hawksworx.com/blog/oakleys-moto-diet/"/>
@@ -1155,7 +1155,7 @@ gulp.task(&amp;quot;comments&amp;quot;, function() {
 &lt;/p&gt;
 </content>
   </entry>
-
+  
   <entry>
     <title>Data Viz at Digital Dumbo</title>
     <link href="https://www.hawksworx.com/blog/data-viz-at-digital-dumbo/"/>
@@ -1191,7 +1191,7 @@ gulp.task(&amp;quot;comments&amp;quot;, function() {
 &lt;/p&gt;
 </content>
   </entry>
-
+  
   <entry>
     <title>Pathing the Gimmicky Cowpaths</title>
     <link href="https://www.hawksworx.com/blog/pathing-the-gimmicky-cowpaths/"/>
@@ -1234,7 +1234,7 @@ gulp.task(&amp;quot;comments&amp;quot;, function() {
 &lt;/p&gt;
 </content>
   </entry>
-
+  
   <entry>
     <title>Talking at Jsday Verona</title>
     <link href="https://www.hawksworx.com/blog/talking-at-jsday-verona/"/>
@@ -1305,7 +1305,7 @@ gulp.task(&amp;quot;comments&amp;quot;, function() {
 &lt;/p&gt;
 </content>
   </entry>
-
+  
   <entry>
     <title>Oakleys Monster Page of Baubles</title>
     <link href="https://www.hawksworx.com/blog/oakleys-monster-page-of-baubles/"/>
@@ -1348,7 +1348,7 @@ gulp.task(&amp;quot;comments&amp;quot;, function() {
 &lt;/p&gt;
 </content>
   </entry>
-
+  
   <entry>
     <title>Reflecting on Txjs</title>
     <link href="https://www.hawksworx.com/blog/reflecting-on-txjs/"/>
@@ -1417,7 +1417,7 @@ gulp.task(&amp;quot;comments&amp;quot;, function() {
 &lt;/p&gt;
 </content>
   </entry>
-
+  
   <entry>
     <title>Excess CMS and Stink at Txjs</title>
     <link href="https://www.hawksworx.com/blog/excess-cms-and-stink-at-txjs/"/>
@@ -1443,7 +1443,7 @@ gulp.task(&amp;quot;comments&amp;quot;, function() {
 &lt;/blockquote&gt;
 </content>
   </entry>
-
+  
   <entry>
     <title>Smelly CMS at HTML5DevConf</title>
     <link href="https://www.hawksworx.com/blog/smelly-cms-at-html5devconf/"/>
@@ -1472,7 +1472,7 @@ gulp.task(&amp;quot;comments&amp;quot;, function() {
 &lt;/p&gt;    More info: &lt;a href=&quot;http://html5devconf.com/venue.html&quot;&gt;The Palace Hotel&lt;/a&gt;, &lt;a href=&quot;http://html5devconf.com/sessions.html#p_hawksworth&quot;&gt;Session info&lt;/a&gt;, &lt;a href=&quot;http://lanyrd.com/2013/html5devconf-spring/scfqcr/&quot;&gt;Session info and coverage on Lanyrd.&lt;/a&gt;
 </content>
   </entry>
-
+  
   <entry>
     <title>Simplicity and performance with static files</title>
     <link href="https://www.hawksworx.com/blog/simplicity-and-performance/"/>
@@ -1510,7 +1510,7 @@ gulp.task(&amp;quot;comments&amp;quot;, function() {
 &lt;p&gt;Can I get a &#39;hell yeah!&#39;&lt;/p&gt;
 </content>
   </entry>
-
+  
   <entry>
     <title>I can smell your CMS at Fronteers 2012</title>
     <link href="https://www.hawksworx.com/blog/i-can-smell-your-cms-a-talk-at-fronteers/"/>
@@ -1766,7 +1766,7 @@ Wes, Randy, I think that a good CMS should be totally transparent in the front e
 &lt;/div&gt;
 </content>
   </entry>
-
+  
   <entry>
     <title>Bootstrapping front-end development with Yeoman</title>
     <link href="https://www.hawksworx.com/blog/bootrapping-front-end-development-with-yeoman/"/>
@@ -1795,7 +1795,7 @@ Wes, Randy, I think that a good CMS should be totally transparent in the front e
 &lt;/p&gt;
 </content>
   </entry>
-
+  
   <entry>
     <title>Sketch.js adds convenient canvas rendering</title>
     <link href="https://www.hawksworx.com/blog/sketchjs-adds-convenient-canvas-rendering/"/>
@@ -1816,7 +1816,7 @@ Wes, Randy, I think that a good CMS should be totally transparent in the front e
 &lt;/p&gt;
 </content>
   </entry>
-
+  
   <entry>
     <title>Visiting BBC Online at Salford</title>
     <link href="https://www.hawksworx.com/blog/visiting-bbc-online-at-salford/"/>
@@ -1863,7 +1863,7 @@ Wes, Randy, I think that a good CMS should be totally transparent in the front e
 &lt;/p&gt;
 </content>
   </entry>
-
+  
   <entry>
     <title>Reflecting on Full Frontal 2011</title>
     <link href="https://www.hawksworx.com/blog/reflecting-on-fullfrontal-2011/"/>
@@ -1913,7 +1913,7 @@ Wes, Randy, I think that a good CMS should be totally transparent in the front e
 &lt;/p&gt;
 </content>
   </entry>
-
+  
   <entry>
     <title>Excessive Enhancement at Full Frontal</title>
     <link href="https://www.hawksworx.com/blog/excessive-enhancement-at-full-frontal/"/>
@@ -1939,7 +1939,7 @@ Wes, Randy, I think that a good CMS should be totally transparent in the front e
 &lt;/p&gt;
 </content>
   </entry>
-
+  
   <entry>
     <title>Joining R/GA</title>
     <link href="https://www.hawksworx.com/blog/joining-rga-london/"/>
@@ -1962,7 +1962,7 @@ Wes, Randy, I think that a good CMS should be totally transparent in the front e
 &lt;/p&gt;
 </content>
   </entry>
-
+  
   <entry>
     <title>Time to move on from The Team</title>
     <link href="https://www.hawksworx.com/blog/time-to-move-on-from-the-team/"/>
@@ -1994,7 +1994,7 @@ Wes, Randy, I think that a good CMS should be totally transparent in the front e
 &lt;/p&gt;
 </content>
   </entry>
-
+  
   <entry>
     <title>Value in a happy hack day</title>
     <link href="https://www.hawksworx.com/blog/value-in-a-happy-hackday/"/>
@@ -2035,7 +2035,7 @@ Wes, Randy, I think that a good CMS should be totally transparent in the front e
 &lt;/p&gt;
 </content>
   </entry>
-
+  
   <entry>
     <title>Expectations of web development at agencies</title>
     <link href="https://www.hawksworx.com/blog/expectations-of-web-development-at-agencies/"/>
@@ -2064,7 +2064,7 @@ Wes, Randy, I think that a good CMS should be totally transparent in the front e
 &lt;/p&gt;
 </content>
   </entry>
-
+  
   <entry>
     <title>Social media did not cause the London riots</title>
     <link href="https://www.hawksworx.com/blog/social-media-did-not-cause-the-london-riots/"/>
@@ -2105,7 +2105,7 @@ Wes, Randy, I think that a good CMS should be totally transparent in the front e
 &lt;/p&gt;
 </content>
   </entry>
-
+  
   <entry>
     <title>Getting started with Node at AsyncJS</title>
     <link href="https://www.hawksworx.com/blog/getting-started-with-node-at-asyncjs/"/>
@@ -2118,7 +2118,7 @@ Wes, Randy, I think that a good CMS should be totally transparent in the front e
 &lt;p&gt;The slides from my talk are available now on &lt;a href=&quot;http://www.slideshare.net/philhawksworth/getting-started-with-developing-nodejs&quot;&gt;Slideshare&lt;/a&gt; or to download as a &lt;a href=&quot;http://static.hawksworx.com/asyncjs-nodejs.pdf&quot;&gt;PDF&lt;/a&gt;. The complete &lt;a href=&quot;http://static.hawksworx.com/asyncjs-nodejs.key&quot;&gt;Keynote presentation&lt;/a&gt; is available for download too, but weighs in at a hefty 182MB due to some animated screen-captures.&lt;/p&gt;
 </content>
   </entry>
-
+  
   <entry>
     <title>Developing a side project</title>
     <link href="https://www.hawksworx.com/blog/developing-a-side-project/"/>
@@ -2156,7 +2156,7 @@ Wes, Randy, I think that a good CMS should be totally transparent in the front e
 &lt;/p&gt;
 </content>
   </entry>
-
+  
   <entry>
     <title>The next generation stack. Is NodeJS ready to go mainstream?</title>
     <link href="https://www.hawksworx.com/blog/the-next-generation-stack-is-nodejs-ready-to-go-mainstream/"/>
@@ -2184,7 +2184,7 @@ Wes, Randy, I think that a good CMS should be totally transparent in the front e
 &lt;p&gt;I&#39;m not just trying to be antagonistic by stating &quot;Not Windows&quot;. Yes, this is a conceit in order to wangle nnnn or 4N or whatever, but the real point is that all of the pieces of the puzzle work beautifully on various flavours of Linux, Unix and OSX. Windows, less so.  I&#39;m going to be using this &#39;4N&#39; stack for more an more projects now, and as some big players start taking a more serious look at using Node and Nginx, I think that it will become more and more common.&lt;/p&gt;
 </content>
   </entry>
-
+  
   <entry>
     <title>Hitched</title>
     <link href="https://www.hawksworx.com/blog/hitched/"/>
@@ -2216,7 +2216,7 @@ Wes, Randy, I think that a good CMS should be totally transparent in the front e
 &lt;figure&gt;&lt;img alt=&quot;&quot; src=&quot;https://www.hawksworx.com/images/hitched-pose.png&quot;&gt;&lt;/figure&gt;
 </content>
   </entry>
-
+  
   <entry>
     <title>Nodejs I just have to use it for something</title>
     <link href="https://www.hawksworx.com/blog/nodejs-i-just-have-to-use-it-for-something/"/>
@@ -2246,7 +2246,7 @@ Wes, Randy, I think that a good CMS should be totally transparent in the front e
 &lt;/p&gt;
 </content>
   </entry>
-
+  
   <entry>
     <title>In defense of IE6</title>
     <link href="https://www.hawksworx.com/blog/in-defense-of-ie6/"/>
@@ -2278,7 +2278,7 @@ Wes, Randy, I think that a good CMS should be totally transparent in the front e
 &lt;/p&gt;
 </content>
   </entry>
-
+  
   <entry>
     <title>Using Quicksilver to control Last.fm</title>
     <link href="https://www.hawksworx.com/blog/using-quicksilver-to-control-lastfm/"/>
@@ -2305,7 +2305,7 @@ end tell
 &lt;/p&gt;
 </content>
   </entry>
-
+  
   <entry>
     <title>Flash v Web. Behind enemy lines</title>
     <link href="https://www.hawksworx.com/blog/flash-v-web-behind-enemy-lines/"/>
@@ -2328,7 +2328,7 @@ end tell
 &lt;/p&gt;
 </content>
   </entry>
-
+  
   <entry>
     <title>Moving on from Osmosoft</title>
     <link href="https://www.hawksworx.com/blog/moving-on-from-osmosoft/"/>
@@ -2360,7 +2360,7 @@ end tell
 &lt;/p&gt;
 </content>
   </entry>
-
+  
   <entry>
     <title>Leveraging Jquery and Jquery Plugins in TiddlyWiki</title>
     <link href="https://www.hawksworx.com/blog/leveraging-jquery-and-jquery-plugins-in-tiddlyWiki/"/>
@@ -2546,7 +2546,7 @@ config.macros.listnav = {
 &lt;/p&gt;
 </content>
   </entry>
-
+  
   <entry>
     <title>Mashing up flickr in the client with jQuery</title>
     <link href="https://www.hawksworx.com/blog/mashing-up-flickr-in-the-client-with-jquery/"/>
@@ -2571,7 +2571,7 @@ config.macros.listnav = {
 &lt;/ul&gt;
 </content>
   </entry>
-
+  
   <entry>
     <title>Unobtrusify your Javascript</title>
     <link href="https://www.hawksworx.com/blog/unobtrusify-your-javascript/"/>
@@ -2664,7 +2664,7 @@ $(&#39;#wrapper h1&#39;).addClass(&#39;clickable&#39;);
 &lt;/p&gt;
 </content>
   </entry>
-
+  
   <entry>
     <title>Enthusiasm and Good Food at Tiddlyparis</title>
     <link href="https://www.hawksworx.com/blog/enthusiasm-and-good-food-at-tiddlyparis/"/>
@@ -2689,7 +2689,7 @@ $(&#39;#wrapper h1&#39;).addClass(&#39;clickable&#39;);
 &lt;p&gt;A bient&amp;ocirc;to!&lt;/p&gt;
 </content>
   </entry>
-
+  
   <entry>
     <title>Announcing JigglyWiki. A TiddlyWiki experiment with jQuery</title>
     <link href="https://www.hawksworx.com/blog/announcing-jigglywiki-a-tiddlywiki-experiment/"/>
@@ -2729,7 +2729,7 @@ $(&#39;#wrapper h1&#39;).addClass(&#39;clickable&#39;);
 &lt;/p&gt;
 </content>
   </entry>
-
+  
   <entry>
     <title>Get your Task Management wiki</title>
     <link href="https://www.hawksworx.com/blog/get-your-task-management-wiki/"/>
@@ -2756,7 +2756,7 @@ $(&#39;#wrapper h1&#39;).addClass(&#39;clickable&#39;);
 &lt;p&gt;Roll on version 0.5!&lt;/p&gt;
 </content>
   </entry>
-
+  
   <entry>
     <title>Nba updates on twitter</title>
     <link href="https://www.hawksworx.com/blog/nba-updates-on-twitter/"/>
@@ -2783,7 +2783,7 @@ $(&#39;#wrapper h1&#39;).addClass(&#39;clickable&#39;);
 Thanks also to &lt;a href=&quot;http://www.flickr.com/photos/balakov&quot;&gt;Balakov&lt;/a&gt; who published &lt;a href=&quot;http://www.flickr.com/photos/balakov/502470343/&quot;&gt;the image used&lt;/a&gt; for each NBA team twitter account icon under a Creative Commons license on flickr.&lt;/p&gt;
 </content>
   </entry>
-
+  
   <entry>
     <title>Jsspec Bundle for Textmate Helps With Writing</title>
     <link href="https://www.hawksworx.com/blog/jsspec-bundle-for-textmate-helps-with-writing/"/>
@@ -2799,7 +2799,7 @@ Thanks also to &lt;a href=&quot;http://www.flickr.com/photos/balakov&quot;&gt;Ba
 &lt;p&gt;Feel free to take this bundle and modify it to fit your purpose. Enjoy.&lt;/p&gt;
 </content>
   </entry>
-
+  
   <entry>
     <title>How to create and distribute lovely screencasts</title>
     <link href="https://www.hawksworx.com/blog/how-to-create-and-distribute-lovely-screencasts/"/>
@@ -2843,7 +2843,7 @@ Thanks also to &lt;a href=&quot;http://www.flickr.com/photos/balakov&quot;&gt;Ba
 &lt;p&gt;I wanted to be able to embed my screencasts on my website, but also allow any interested viewers to be able to download them to keep.  Reducing any barriers to accessing the screencasts was important to me, so I didn&#39;t want to require the viewer to install any software before being able to view them. For that reason, a flash based video seemed sensible, due to the ubiquity of the flash player in browsers. I also wanted the screencasts to be of a suitably video quality. &lt;a href=&quot;http://www.vimeo.com/&quot;&gt;Vimeo.com&lt;/a&gt; will host HD content and stream content to your site. A bit of a sticking point at the moment is that they don&#39;t yet allow HD streaming to your embedded videos. You need to view them on their site for that. Apparently, this is will be available soon.  They allow you to download the videos from their site and their fullscreen viewer is super-slick. &lt;a href=&quot;http://www.vimeo.com/&quot;&gt;Vimeo.&lt;/a&gt; fitted my requirements pretty well and I heartily recommend them. Their site is slick and they offer lots of support on how to best create your video content.&lt;/p&gt;
 </content>
   </entry>
-
+  
   <entry>
     <title>Observing Twitter Behaviours</title>
     <link href="https://www.hawksworx.com/blog/observing-twitter-behaviours/"/>
@@ -2857,7 +2857,7 @@ Thanks also to &lt;a href=&quot;http://www.flickr.com/photos/balakov&quot;&gt;Ba
 &lt;p&gt;One worry that I do have though, and this was &lt;a href=&quot;http://confusedofcalcutta.com/2008/01/06/freewheeling-about-social-media/&quot;&gt;articulated by JP Rangaswami on his blog&lt;/a&gt; much better than I am likely to do here, is the experience of the Newbie.  We should avoid creating an environment which is intimidating and unwelcoming to the new user.  Some of the emerging &lt;a href=&quot;http://microformats.org/wiki/twitter-nanoformats&quot;&gt;nanoformats&lt;/a&gt; add great value to Twitter, but we must never try and dictate that they are used by all. Instead, we should provide complete, and accessible information on them for anyone who is interested enough to use them.  I for one was scared off IRC and the like for years by the seemingly ferocious users who knew the conventions inside and out, but didn&#39;t appear to tolerate newcomers.  I&#39;d hate for twitter to end up like that.  We should use things like the &lt;a href=&quot;http://twitter.com/tencommandments&quot;&gt;10 Commandments of Twitter&lt;/a&gt; as useful tips for people, rather than an iron rod with which to force people to use Twitter &#39;our way.&#39;&lt;/p&gt;
 </content>
   </entry>
-
+  
   <entry>
     <title>Osmosoft return from LeWeb3 intact</title>
     <link href="https://www.hawksworx.com/blog/osmosoft-return-from-leweb3-intact/"/>
@@ -2890,7 +2890,7 @@ Thanks also to &lt;a href=&quot;http://www.flickr.com/photos/balakov&quot;&gt;Ba
 &lt;p&gt;Check out the photos that Osmosoft took at LeWeb3. Several Osmosoftians &lt;a href=&quot;http://www.flickr.com/photos/psd/sets/72157603456702447/&quot;&gt;more&lt;/a&gt; &lt;a href=&quot;http://www.flickr.com/photos/philliecasablanca/sets/72157603435510986/&quot;&gt;talented&lt;/a&gt; &lt;a href=&quot;http://www.flickr.com/photos/carrierdetect/sets/72157603197236730&quot;&gt;than&lt;/a&gt; &lt;a href=&quot;http://www.flickr.com/photos/philhawksworth/sets/72157603446183588&quot;&gt;I&lt;/a&gt; have posted pictures at flickr.&lt;/p&gt;
 </content>
   </entry>
-
+  
   <entry>
     <title>Opening a Finder window from the Terminal</title>
     <link href="https://www.hawksworx.com/blog/opening-a-finder-window-from-the-terminal/"/>
