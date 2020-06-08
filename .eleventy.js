@@ -36,6 +36,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/site/images");
   eleventyConfig.addPassthroughCopy("src/site/manifest.json");
   eleventyConfig.addPassthroughCopy("src/site/browserconfig.xml");
+  eleventyConfig.addPassthroughCopy("src/site/CNAME");
 
   // minify the html output
   const htmlmin = require("html-minifier");
