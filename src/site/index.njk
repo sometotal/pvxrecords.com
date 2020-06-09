@@ -10,19 +10,19 @@ pageClass: dark-theme theme-black
    /pen-samp-liv-ox/
   </p>
   <p>
-    That which began as a home for a band of misfits in Wicker Park, Chicago, grew to house many friends from a larger music circle
+    What began as a home for a band of misfits in Wicker Park, Chicago, grew to house many friends from a larger music circle
   </p>
 {% endblock %}
 
 {% block content %}
 
-  <h2>Records</h2>
+  <h2>PVX Records</h2>
   {%- for record in collections.records -%}
 
     <h3>{{record.data.title}}</h3>
-    <dl>
-      <dt>artist:</dt>
-      <dd>{{record.data.artist}}</dd>
+    <ul>
+      <li>artist: {{record.data.artist}}</li>
+    </ul>
 
   {%- endfor -%}
 
