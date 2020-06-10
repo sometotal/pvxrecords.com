@@ -19,7 +19,9 @@ pageClass: dark-theme theme-black
   <h2>Artists</h2>
   {%- for artist in collections.artists -%}
 
+    {% if artist.data.artist %}
     <h3>{{artist.data.artist}}</h3>
+    {% endif %}
 
   {%- endfor -%}
 
