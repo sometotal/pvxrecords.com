@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600">
+  <!-- Placeholder cover. Replace with real art: save it as /images/covers/workbook.jpg and update records/index.html. -->
+  <rect width="600" height="600" fill="#222"/>
+  <rect x="24" y="24" width="552" height="552" fill="none" stroke="#555" stroke-width="2" stroke-dasharray="10 8"/>
+  <text x="300" y="285" text-anchor="middle" font-family="'Arial Narrow', 'Helvetica Neue', Arial, sans-serif" font-weight="700" font-size="64" fill="#eee">WorKBooK</text>
+  <text x="300" y="340" text-anchor="middle" font-family="Georgia, serif" font-size="30" fill="#aaa">GasMasK</text>
+  <text x="300" y="540" text-anchor="middle" font-family="Georgia, serif" font-style="italic" font-size="22" fill="#777">cover art coming soon</text>
+</svg>
