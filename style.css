@@ -300,14 +300,14 @@ html, body {
 body {
   text-align: center;
   color: #444;
-  font-family: Georgia, serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
-  line-height: 28px;
+  line-height: 1.6;
   font-size: 14px;
 }
 @media (min-width: 500px) {
   body {
-    line-height: 31px;
+    line-height: 1.6;
     font-size: 16px;
   }
 }
@@ -422,13 +422,13 @@ a.tag:link, a.tag:visited {
 }
 
 h1, h2, h3, h4 {
-  font-family: arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   padding-top: 1em;
   line-height: 1.2;
 }
 
 h1 {
-  font-family: Placard, arial, sans-serif;
+  font-family: Placard, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 3.8em;
   line-height: 1;
   text-transform: uppercase;
@@ -524,7 +524,7 @@ button {
   font-size: 1em;
   background-color: #555;
   color: #fff;
-  font-family: Georgia, serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   border-style: none;
   padding: 0.5em 1em;
   border-radius: 3px;
@@ -588,7 +588,7 @@ h2 img.external-link {
 }
 
 header ul.nav {
-  font-family: Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: bold;
   font-size: 0.9em;
   list-style: none;
@@ -609,6 +609,37 @@ header ul.nav a.home {
 }
 header ul.nav a.blog {
   padding-left: 1em;
+}
+/* keep the nav on one line on phones */
+@media (max-width: 499px) {
+  .sidebar-container {
+    width: 90%;
+  }
+  header ul.nav {
+    display: flex;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+  }
+  header ul.nav a {
+    padding-left: 0.45em;
+    padding-right: 0.45em;
+  }
+  header ul.nav a.home {
+    padding-left: 0.6em;
+    padding-right: 0.6em;
+  }
+  header ul.nav a.blog {
+    padding-left: 0.7em;
+  }
+}
+@media (max-width: 359px) {
+  header ul.nav {
+    font-size: 0.82em;
+  }
+  header ul.nav a {
+    padding-left: 0.4em;
+    padding-right: 0.4em;
+  }
 }
 
 .search-ui,
@@ -721,14 +752,33 @@ html {
 }
 
 a {
-  border-bottom-color: #9bf;
+  border-bottom-color: #e9a3ad;
 }
 a:link, a:visited {
-  color: #46c;
+  color: #af2a40;
 }
 a:hover, a:focus {
-  color: #2755de;
-  border-bottom-color: #2755de;
+  color: #7d1426;
+  border-bottom-color: #7d1426;
+}
+
+/* list bullets: a red arrowhead, a star for artist links, beamed notes for links that leave the site */
+.main ul li::marker {
+  color: #af2a40;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+}
+.main ul > li {
+  list-style-type: "\25B8\00A0\00A0";
+}
+.main ul > li:has(> a[href^="/artists/"]) {
+  list-style-type: "\2606\00A0\00A0";
+}
+.main ul > li:has(> a[href^="http"]) {
+  list-style-type: "\266B\00A0\00A0";
+}
+.main ul.home-links > li:has(> a) {
+  list-style-type: "\27A0\00A0\00A0";
 }
 
 blockquote {
